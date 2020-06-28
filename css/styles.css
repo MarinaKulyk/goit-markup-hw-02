@@ -1,0 +1,15 @@
+
+/*  Дополнительный синий цвет - color: #2196F3; 
+Основной черный цвет (заголовки) - color: #212121;
+Черный цвет для лого - color: #000000;
+Основной серый цвет - color: #757575;
+Белый цвет - color: #FFFFFF;
+*/
+
+
+body {
+    font-family: Roboto; sans-serif
+}
+.logo {
+    font-family: Raleway; sans-serif
+}
