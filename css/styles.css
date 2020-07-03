@@ -34,8 +34,9 @@
 .link {
     text-decoration: none;
 }
-.logo {
-    font-family: var(--secondary-titel-color);
+.logo,
+.footer-logo-link {
+    font-family: var(--secondary-font);
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -43,10 +44,9 @@
     color: var(--logo-color);
     }
 .web {
-    color: #2196F3;
+    color: var(--akcent-color);
 }
 .nav-link {
-    font-family: var(--maint-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -54,7 +54,111 @@
     color: var(--main-titel-color);  
 }
 .nav-link:hover,
-.nav-link:focus {
-    color: #2196F3;
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus  {
+    color: var(--akcent-color);
 }
-
+.contacts-link {
+    color: var(--main-text-color);
+}
+.hero-titel {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-titel-color);
+}
+.hero-button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--akcent-color);
+    color: var(--secondary-titel-color);
+}
+.superiority-titel {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-titel-color);
+}
+.superiority-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+.section-titel {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-titel-color);
+}
+.work-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.8);
+    color: var(--secondary-titel-color);
+}
+.team-name,
+.team-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-titel-color);
+}
+.team-text {
+    font-weight: 400;
+    color: var(--main-text-color);
+}
+.team {
+    background-color: var(--backgraund-team-color);
+}
+.footer{
+    background-color: var(--backgraund-footer-color);
+}
+.footer-logo-link {
+    color: var(--secondary-titel-color);
+}
+.address-text,
+.footer-contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-titel-color);
+}
+.footer-contacts {
+    color: var(--footer-link-color);
+    }
+.social-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-titel-color);
+}
+.team-social-link:hover,
+.social-link:hover {
+    background-color: var(--akcent-color);
+}
