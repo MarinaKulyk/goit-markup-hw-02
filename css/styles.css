@@ -4,12 +4,57 @@
 Черный цвет для лого - color: #000000;
 Основной серый цвет - color: #757575;
 Белый цвет - color: #FFFFFF;
+Фон подвала - color: #2F303A
+Цвет ссылок подвала - color: rgba(255, 255, 255, 0.6)
+Цвет фона страницы - color: #E5E5E5;
+Фон секции Теам - color: #F5F4FA;
 */
+:root {
+    --maint-font:"Roboto"; sans-serif;
+    --secondary-font: "Raleway"; sans-serif;
+    --akcent-color: #2196F3;
+    --main-titel-color: #212121;
+    --secondary-titel-color: #FFFFFF;
+    --logo-color: #000000;
+    --main-text-color: #757575;
+    --backgraund-color: #E5E5E5;
+    --backgraund-footer-color: #2F303A;
+    --backgraund-team-color: #F5F4FA;
+    --footer-link-color: rgba(255, 255, 255, 0.6)
+}
 
-
-body {
-    font-family: Roboto; sans-serif
+.page {
+    font-family: var(--maint-font);
+    background-color: var(--backgraund-color);
+    color: var(--main-text-color);
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
 }
 .logo {
-    font-family: Raleway; sans-serif
+    font-family: var(--secondary-titel-color);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-color);
+    }
+.web {
+    color: #2196F3;
 }
+.nav-link {
+    font-family: var(--maint-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-titel-color);  
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #2196F3;
+}
+
