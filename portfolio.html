@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>HomeWork2</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet" />
-    <link rel="normalize" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
@@ -18,14 +18,16 @@
         <nav class="nav">
             <a class="logo link" href="index.html"><span lang="en" class="web">Web</span> Studio</a>
             <ul class="nav-list list">
-                <li><a class="nav-link link" href="./index.html">Студия</a></li>
+                <li><a class="nav-link link" href="./index.html" target="blank">Студия</a></li>
                 <li><a class="nav-link link" href="./portfolio.html">Портфолио</a></li>
                 <li><a class="nav-link link" href="#">Контакты</a></li>
             </ul>
         </nav>
         <div class="contacts">
-            <a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="contacts-link link" href="mailto:info@devstudio.com">
+                <img src="./imges/contacts/envelope.svg" alt="иконка почты"> info@devstudio.com</a>
+            <a class="contacts-link link" href="tel:+380961111111">
+                <img src="./imges/contacts/smartphone.svg" alt="иконка телефона"> +38 096 111 11 11</a>
         </div>
     </header>
     <main>
@@ -33,12 +35,12 @@
         <section class="filters">
             <h1 hidden>Фильтры</h1>
             <nav class="filters-nav">
-                <ul class="filters-list list">
-                    <li><button type="button">Все</button></li>
-                    <li><button type="button">Веб-сайты</button></li>
-                    <li><button type="button">Приложения</button></li>
-                    <li><button type="button">Дизайн</button></li>
-                    <li><button type="button">Маркетинг</button></li>
+                <ul class="filters-button list">
+                    <li><button class="button-name" type="button">Все</button></li>
+                    <li><button class="button-name" type="button">Веб-сайты</button></li>
+                    <li><button class="button-name" type="button">Приложения</button></li>
+                    <li><button class="button-name" type="button">Дизайн</button></li>
+                    <li><button class="button-name" type="button">Маркетинг</button></li>
                 </ul>
             </nav>
         </section>
@@ -149,28 +151,27 @@
         </section>
     </main>
     <!-- ПОДВАЛ -->
-    <footer>
-        <div>
-            <div>
-                <a class="logo link" href="index.html"><span>Web</span> Studio</a>
-            </div>
-            <address>
-                <p>г. Киев, пр-т Леси Украинки, 26</p>
-                <div><a class="contacts-link link" href="mailto:info@example.com">info@example.com</a></div>
-                <div><a class="contacts-link link" href="tel:+380991111111">+38 099 111 11 11</a></div>
-            </address>
+    <footer class="footer">
+        <div class="footer-logo">
+            <a class="footer-logo-link link" href="index.html"><span class="web">Web</span> Studio</a>
         </div>
+        <address class="address">
+            <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+            <div><a class="footer-contacts link" href="mailto:info@example.com">info@example.com</a></div>
+            <div><a class="footer-contacts link" href="tel:+380991111111">+38 099 111 11 11</a></div>
+        </address>
         <div>
-            <b>присоединяйтесь</b>
-            <ul>
-                <li><a href="#"><img src="./imges/social/instagram.svg" alt="иконка Инстаграм"></a></li>
-                <li><a href="#"><img src="./imges/social/twitter.svg" alt="иконка Твыттер"></a></li>
-                <li><a href="#"><img src="./imges/social/twitter.svg" alt="иконка Фейсбук"></a></li>
-                <li><a href="#"><img src="./imges/social/linkedin.svg" alt="иконка Линкедин"></a></li>
+            <b class="social-text">присоединяйтесь</b>
+            <ul class="sociai-list list">
+                <li><a class="social-link" href="#"><img src="./imges/social/instagram.svg" alt="иконка Инстаграм"></a>
+                </li>
+                <li><a class="social-link" href="#"><img src="./imges/social/twitter.svg" alt="иконка Твыттер"></a></li>
+                <li><a class="social-link" href="#"><img src="./imges/social/twitter.svg" alt="иконка Фейсбук"></a></li>
+                <li><a class="social-link" href="#"><img src="./imges/social/linkedin.svg" alt="иконка Линкедин"></a>
+                </li>
             </ul>
         </div>
     </footer>
-
 </body>
 
 </html>
